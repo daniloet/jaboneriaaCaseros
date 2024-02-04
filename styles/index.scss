@@ -1,0 +1,35 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lavender;
+    min-height: 100vh;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Varela Round", sans-serif;
+        color: white; // Añade el color del texto para que sea visible en el fondo negro
+
+        .cardsIndex {
+            display: flex;
+
+            .card {
+                margin: 20px;
+                align-items: center;
+
+                .card-body {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    h2,
+                    p {
+                        margin: 0;
+                    }
+
+                }
+            }
+        }
+    }
+}

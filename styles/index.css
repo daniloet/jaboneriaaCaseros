@@ -26,4 +26,8 @@ main section .cardsIndex .card .card-body {
 main section .cardsIndex .card .card-body h2,
 main section .cardsIndex .card .card-body p {
   margin: 0;
+}
+main section .cardsIndex .card .card-img-top {
+  width: 65%;
+  height: 65%;
 }/*# sourceMappingURL=index.css.map */

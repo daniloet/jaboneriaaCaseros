@@ -3,8 +3,21 @@ main {
     grid-template-columns: 1fr;
     background-color: lavender;
     min-height: 100vh;
-    .item{
-        .tituloIndex{
+
+    .item {
+        background-color: red;
+
+        .productos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                margin: 5px;
+            }
+        }
+
+        .tituloIndex {
             margin-top: 10px;
         }
     }
@@ -14,18 +27,26 @@ main {
         flex-direction: row;
         justify-content: space-around;
         background-color: black;
-        
-        .logo-jabo{
+
+        .logo-jabo {
             margin: 10px;
-            .img-logo-jabo{
-            width: 350px;
+
+            .img-logo-jabo {
+                width: 350px;
             }
         }
-        .nav{
+
+        .nav {
             margin: 10px;
             display: flex;
-            a{
+
+            a {
                 margin: 20px;
+                width: 130px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
     }
@@ -55,9 +76,11 @@ main {
                     }
 
                 }
-                .card-img-top{
+
+                .card-img-top {
                     width: 65%;
                     height: 65%;
+                    margin-top: 10px;
                 }
             }
         }
@@ -66,8 +89,8 @@ main {
     .container {
         .products {
             .carts {
-                .img-container{
-                    .prod-img{
+                .img-container {
+                    .prod-img {
                         width: 300px;
                         height: 250px;
                     }

@@ -20,6 +20,9 @@ main .item .productos .container .products {
 main .item .productos .container .products .carts {
   margin: 20px;
 }
+main .item .productos .container .products .carts .title {
+  padding-top: 5px;
+}
 main .item .productos h2 {
   margin: 5px;
 }

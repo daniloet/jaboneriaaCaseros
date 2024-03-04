@@ -13,15 +13,20 @@ main {
             align-items: center;
 
             .container {
-                .products{
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                grid-template-rows: repeat (3);
-            .carts{
-                margin: 20px;
-            }
-        }
-                
+                .products {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat (3);
+
+                    .carts {
+                        margin: 20px;
+
+                        .title {
+                            padding-top: 5px;
+                        }
+                    }
+                }
+
             }
 
             h2 {
